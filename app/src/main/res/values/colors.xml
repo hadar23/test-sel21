@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="recurrentFreeHoursColor">#8645FA</color>
+    <color name="oneTimeFreeHoursColor">#9C27B0</color>
+    <color name="alertTitleColor">#D1A5D8</color>
+    <color name="meetingRed">#47CD4C</color>
+    <color name="colorPrimary">#512DA8</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorButtons">#E7DFFA</color>
+    <color name="colorbackground">#D81B60</color>
+    <color name="colorMAYBE1">#C867CF</color>
+    <color name="colorMAYBE2">#B471F0</color>
+    <color name="colorheadDialog">#8B1DBB</color>
+    <color name="colorDialog">#E7DFFA</color>
+    <color name="colorhtxt">#512DA8</color>
+    <color name="colorblack">#000</color>
+    <color name="grey">#D0E5E5E5</color>
+    <color name="stblue">#88D6FA</color>
+    <color name="liblue">#BBE5F8</color>
+    <color name="stgreen">#9BE645</color>
+    <color name="ligreen">#E0F8C5</color>
+    <color name="stred">#FA8178</color>
+    <color name="lired">#F8CFCB</color>
+
+</resources>

@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">Afeka Mentoring</string>
+    <string name="courses_list">Courses</string>
+    <string name="users_list">usersList</string>
+    <string name="yesEdit">editMentoring</string>
+
+
+    #help page
+    <string name="head_descriptipn">application description:</string>
+    <string name="txt_descriptipn">This app allows you to find a suitable mentor for the course you
+        are having trouble with</string>
+    <string name="head_search">Search options:</string>
+    <string name="txt_search">clicking on a Search icon in the top-toll bar or through the homepage
+        reach you to the mentor-search-page.\n\n*you can search by curse-name or course-code\n\n
+        *you can search by users</string>
+    <string name="head_schedule">Schedule:</string>
+    <string name="txt_schedule">Each mentor has a schedule.\nThe mentor marks in his schedule his
+        free hours for mentoring.\nTrainee has the option of looking at the mentor\'s schedule, and
+        to check if there are suitable hours for both.\nIf so, the trainee can send a request to the
+        mentor to make an appointment with him</string>
+    <string name="head_communication">Communication:</string>
+    <string name="txt_communication">Whatsapp</string>
+    <string name="contact_head_communication">Contact:</string>
+    <string name="contact_communication">afekaMentor@gmail.com</string>
+
+    # AddMentoringActivity
+    <string name="mentoringActivityCourseAdded">Course Added</string>
+    <string name="mentoringActivityAddingFailed">Adding Failed</string>
+    <string name="mentoringActivityLowGrade">sSorry, your grade is too low</string>
+    <string name="mentoringActivityIncorrectGrade">Sorry, your grade is incorrect</string>
+    <string name="mentoringActivityEmptyField">Can not Save with Empty Field</string>
+    <string name="mentoringActivityRequiredGrade">grade is required</string>
+
+    # LoginActivity
+    <string name="loginActivityNotValidPhone">Phone number is not valid</string>
+    <string name="loginActivityPhoneVerified">Phone Verified </string>
+    <string name="loginActivityRequiredValidOTP">Valid OTP is required</string>
+    <string name="loginActivityChecking">Checking</string>
+    <string name="loginActivityAuthenticationFailed">Authentication failed</string>
+    <string name="loginActivityOTPTimeout">OTP timeout, please re-generate the OTP again failed</string>
+    <string name="loginActivityCannotCreateAccount">Cannot create account </string>
+    <string name="loginActivityVerify">verify</string>
+
+    # MessageActivity
+    <string name="messageActivityMessages">messages</string>
+
+    # PostAdapter
+    <string name="postAdapterAlreadyHaveCourse">You already have this course</string>
+
+    # PostSearchAdapter
+    <string name="postSearchAdapterNoMentoring">This course has no mentoring</string>
+    <string name="postSearchAdapterThisIsYou">This is you</string>
+
+    # AdaptersKinds
+    <string name="adaptersKindCourse">course</string>
+    <string name="adaptersKindUser">user</string>
+    <string name="adaptersKindCoursePerUser">coursePerUser</string>
+    <string name="adaptersKindUserPerCourse">userPerCourse</string>
+    <string name="adaptersKindMessage">message</string>
+
+    # CardsInfo
+    <string name="cardInfoMyGrade">My grade:\t</string>
+
+    # ProfileActivity
+    <string name="profileActivityUpdatingProfilePicture">Updating profile picture</string>
+    <string name="profileActivityTempPick">Temp Pick</string>
+    <string name="profileActivityTempDescription">Temp Description</string>
+    <string name="profileActivityCameraStoragePermissionRequired">Camera and storage permissions are required</string>
+    <string name="profileActivityStoragePermissionRequired">Storage permission is required</string>
+    <string name="profileActivityUploadImage">Upload image</string>
+    <string name="profileActivitySomeError">Some Error</string>
+    <string name="profileActivityCanceled">Canceled</string>
+    <string name="profileActivityCamera">Camera</string>
+    <string name="profileActivityGallery">Gallery</string>
+    <string name="profileActivityPickImageFrom">Pick Image from</string>
+    <string name="profileActivityChooseFromCamera">Choose from camera</string>
+    <string name="profileActivityChooseFromGallery">Choose from gallery</string>
+    <string name="profileActivityErrorUploadingFirebase">Error in uploading image to Firebase</string>
+
+    # ScheduleActivity
+    <string name="scheduleActivityShowFiveDays">To show 5 days in a week, change to Landscape mode</string>
+    <string name="scheduleActivityRemoveForThisDay">Remove for this day</string>
+    <string name="scheduleActivityRemoveForEveryDay">Remove for every day</string>
+    <string name="scheduleActivityQuestionRemoveOneTimeEvent">This is a one-time event\nDo you want to remove it?</string>
+    <string name="scheduleActivityQuestionRemoveRecurringEvent">This is a recurring event\nDo you want to remove it?</string>
+    <string name="scheduleActivityQuestionRemoveMeeting">This is a meeting\nDo you want to cancel it?</string>
+    <string name="scheduleActivityQuestionScheduleMeeting">Do you want to schedule a meeting?</string>
+    <string name="scheduleActivityScheduleMeeting">Schedule meeting</string>
+    <string name="scheduleActivityRemove">Remove</string>
+    <string name="scheduleActivityCancel">Cancel</string>
+    <string name="scheduleActivityRemovedForOneDay">Removed for one day</string>
+    <string name="scheduleActivityRemovedForEveryDay">Removed for every day</string>
+    <string name="scheduleActivityRemoved">Removed</string>
+    <string name="scheduleActivityCanceled">Canceled</string>
+    <string name="scheduleActivityMeeting">Meeting</string>
+    <string name="scheduleActivityOneTime">One-Time</string>
+    <string name="scheduleActivityRegular">Regular</string>
+    <string name="scheduleActivityPickTypeFreeHour">Pick type of free hour</string>
+    <string name="scheduleActivityOneTimeEvent">One-Time Event</string>
+    <string name="scheduleActivityRegularEvent">Regular Event</string>
+
+    # UserSignUpActivity
+    <string name="userSignUpActivityUpdate">UPDATE</string>
+    <string name="userSignUpRequiredName">Name is required</string>
+    <string name="userSignUpRequiredStartYear">Your start year is required</string>
+    <string name="userSignUpActivityStartYearNotLegal">The year that you start study is not legal</string>
+    <string name="userSignUpActivityDataNotInserted">Data has not been inserted</string>
+    <string name="userSignUpActivityBoxEmpty">This box is empty</string>
+
+    # Menu
+    <string name="menuProfile">profile</string>
+    <string name="menuSchedule">schedule</string>
+    <string name="menuMessage">message</string>
+    <string name="menuDelete">delete</string>
+    <string name="menuEdit">edit</string>
+
+    # GlobalFirebaseKeys
+    <string name="globalKeysCourses">Courses</string>
+    <string name="globalKeysCoursesInUser">courses</string>
+    <string name="globalKeysCoursesCounter">coursesCounter</string>
+    <string name="globalKeysUsers">Users</string>
+    <string name="globalKeysUsersList">usersList</string>
+    <string name="globalKeysUsersCounter">usersCounter</string>
+    <string name="globalKeysFullName">fullName</string>
+    <string name="globalKeysUserId">userId</string>
+    <string name="globalKeysPhone">phone</string>
+    <string name="globalKeysAcademy">academy</string>
+    <string name="globalKeysStartYear">startYear</string>
+    <string name="globalKeysEngineering">engineering</string>
+    <string name="globalKeysDescription">description</string>
+    <string name="globalKeysImagePath">imagePath</string>
+    <string name="globalKeysRecurrentFreeHours">recurrentFreeHours</string>
+    <string name="globalKeysOneTimeFreeHours">oneTimeFreeHours</string>
+    <string name="globalKeysDeleted">deleted</string>
+    <string name="globalKeysMeetings">meetings</string>
+    <string name="globalKeysMessages">messages</string>
+
+    # IntentsExtras
+    <string name="intentsExtrasCodeC">codeC</string>
+    <string name="intentsExtrasNameC">nameC</string>
+    <string name="intentsExtrasLevelC">levelC</string>
+    <string name="intentsExtrasGradeC">gradeC</string>
+    <string name="intentsExtrasYesEdit">yesEdit</string>
+    <string name="intentsExtrasVisiitUserId">visiitUserId</string>
+    <string name="intentsExtrasYes">yes</string>
+    <string name="intentsExtrasKind">kind</string>
+    <string name="intentsExtrasAddCourse">addCourse</string>
+    <string name="intentsExtrasUserName">username</string>
+    <string name="intentsExtrasUserId">userId</string>
+    <string name="intentsExtrasHostUserId">hostUserId</string>
+    <string name="intentsExtrasIsHost">isHost</string>
+    <string name="intentsExtrasType">type</string>
+    <string name="intentsExtrasUpdate">update</string>
+    <string name="intentsExtrasSignUp">signUp</string>
+    <string name="intentsExtrasPhone">phone</string>
+    <string name="intentsExtrasKey">key</string>
+    <string name="intentsExtrasComeFromUserFreg">comeFromUserFreg</string>
+    <string name="intentsExtrasComeFromCourseFreg">comeFromCourseFreg</string>
+    <string name="intentsExtrasCourseCode">courseCode</string>
+    <string name="intentsExtrasCourseName">courseName</string>
+    <string name="intentsExtrasImagePlus">image/+</string>
+
+
+    <string-array name="academy">
+        <item>choose your academy</item>
+        <item>Afeka</item>
+    </string-array>
+
+    <string-array name="engineering">
+        <item>choose your engineering</item>
+        <item>Software</item>
+        <item>Electrical</item>
+        <item>Machines </item>
+        <item>Medical Engineering</item>
+        <item>Basic Sciences</item>
+        <item>Biomedical</item>
+
+    </string-array>
+</resources>
